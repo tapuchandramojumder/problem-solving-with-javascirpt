@@ -51,3 +51,4 @@ function remove3(s){
     //res.split('!').join('');
 }
 console.log(remove(" hugo !jadu? ?modhu! kodhu!"))
+
