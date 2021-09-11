@@ -1,4 +1,4 @@
-console.log("moga mama")
+
 var students = [['David', 90], ['Vinoth', 87], ['Divya', 62], ['Ishitha', 65], ['Thomas', 68]];
 
 var Avgmarks = 0;
@@ -21,4 +21,18 @@ if (avg < 60) {
   } else if (avg < 100) {
     console.log('Grade : F');
   }
-  
+  const principal = 2000;
+const time = 5;
+const rate = .08;
+const n = 12;
+const compoundInterest = (p, t, r, n) => {
+   const amount = p * (Math.pow((1 + (r / n)), (n * t)));
+   console.log(1+(r/n))
+   console.log(n*t)
+   const interest = amount - p;
+   return interest;
+};
+console.log(compoundInterest(principal, time, rate, n));
+
+
+console.log((5000*(2/100)*2))
