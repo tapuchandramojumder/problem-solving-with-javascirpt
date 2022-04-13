@@ -1,4 +1,6 @@
 // count the string of letter 
+// must remove empty string ;
+
 
 const str = 'I love  javascript'
 
